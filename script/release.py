@@ -1,5 +1,19 @@
 #! /usr/bin/env python3
-import argparse, base64, common, glob, json, os, platform, re, subprocess, sys, urllib.request, urllib.error, zipfile
+import argparse
+import base64
+import glob
+import json
+import os
+import platform
+import re
+import subprocess
+import sys
+import urllib.error
+import urllib.request
+import zipfile
+
+import common
+
 
 def log_errors(name):
   def wrap(f):
