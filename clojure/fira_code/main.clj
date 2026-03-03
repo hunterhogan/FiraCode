@@ -12,7 +12,6 @@
    [fira-code.time :as time]
    [flatland.ordered.map :refer [ordered-map]]))
 
-
 (defn -main [& args]
   (let [path   (or (first args) "FiraCode.glyphs")
         font   (glyphs/load path)
@@ -29,5 +28,5 @@
                  (spacers/add-spacers ligas)
                  (not-space/regen-not-space)
                  (checks/widths))]
-    (glyphs/save! path font')
+    (glyphs/save! (or (second args) path) font')
     (println)))
