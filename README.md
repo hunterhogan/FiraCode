@@ -4,7 +4,7 @@ Nikita "tonsky" Prokopov created Fira Code: "a free monospaced font containing l
 
 ## New compiled versions
 
-As of 2026 February 8, the last compiled version was released on 2021 December 6. Since then, however, Mr. Prokopov has added to his excellent work.
+As of 2026 March 3, the last compiled version was released on 2021 December 6. Since then, however, Mr. Prokopov has added to his excellent work.
 
 In this fork of his repository, I have compiled the latest version of Fira Code. If he were to create a new release, you should certainly prefer his version. I do not want to replace him or his work: Fira Code is easily my favorite programming font. I cannot replace him: I do not have the skills to make a font.
 
@@ -16,8 +16,14 @@ In this fork of his repository, I have compiled the latest version of Fira Code.
 
 ## [Integrated Code 火](https://github.com/hunterhogan/Integrated_code_fire_font)
 
-Integrated Code 火 is a code-centric font combining an up-to-date [Fira Code](https://github.com/tonsky/FiraCode) compile with a modified [Source Han Mono](https://github.com/adobe-fonts/source-han-mono) compile. The Source™ Han glyphs are exactly twice the width of Fira Code glyphs, and the Source Han characters are slightly more spread out than you would expect to see in normal text.
+Integrated Code 火 supplements Fira Code with CJK languages.
 
-（机器翻译） Integrated Code 火是一款以代码为核心的字体，融合了最新的[Fira Code](https://github.com/tonsky/FiraCode)字形与改良版[Source Han Mono](https://github.com/adobe-fonts/source-han-mono)字形。Source™ Han字符的宽度恰好是Fira Code字符的两倍，且Source Han字符的间距比常规文本中常见的略微宽松。
+| Integrated Code 火 ➡️     | ➡️ is a monospaced programming font ➡️                | ➡️ plus  ⤵️          |
+| ------------------------- | ----------------------------------------------------- | -------------------- |
+| Integrated Code 火 日本   | 日本語スクリプトを備えた等幅プログラミング フォント。 | Japanese.            |
+| Integrated Code 火 한국인 | 한글과 한자를 포함하는 고정폭 프로그래밍 폰트.        | Korean.              |
+| Integrated Code 火 简化字 | 一款采用简体中文字符的等宽编程字体。                  | simplified Chinese.  |
+| Integrated Code 火 台灣   | 一款包含繁體中文字元的等寬程式設計字型。              | traditional Chinese. |
+| Integrated Code 火 香港   | 一個等間隔嘅編程字體，有傳統嘅粵語字。                | Cantonese.           |
 
 Learn more in the [Integrated Code 火 repository](https://github.com/hunterhogan/Integrated_code_fire_font).
