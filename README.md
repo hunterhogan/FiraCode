@@ -4,7 +4,7 @@ Nikita "tonsky" Prokopov created Fira Code: "a free monospaced font containing l
 
 ## New compiled versions
 
-As of 2026 March 3, the last compiled version was released on 2021 December 6. Since then, however, Mr. Prokopov has added to his excellent work.
+As of 2026 October 13, the last compiled version was released on 2021 December 6. Since then, however, Mr. Prokopov has added to his excellent work.
 
 In this fork of his repository, I have compiled the latest version of Fira Code. If he were to create a new release, you should certainly prefer his version. I do not want to replace him or his work: Fira Code is easily my favorite programming font. I cannot replace him: I do not have the skills to make a font.
 
