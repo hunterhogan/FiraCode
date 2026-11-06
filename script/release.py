@@ -1,5 +1,19 @@
 #! /usr/bin/env python3
-import argparse, base64, common, glob, json, os, platform, re, subprocess, sys, urllib.request, urllib.error, zipfile
+import argparse
+import base64
+import glob
+import json
+import os
+import platform
+import re
+import subprocess
+import sys
+import urllib.error
+import urllib.request
+import zipfile
+
+import common
+
 
 def log_errors(name):
   def wrap(f):
@@ -40,9 +54,22 @@ def github_release(version):
   repo = os.environ.get('GITHUB_REPOSITORY', 'tonsky/FiraCode')
   print(f"Releasing to {repo}")
 
-  data = '{"tag_name":"' + version + '","name":"' + version + '"}'
+  body = f"""This is an automated release from my fork of tonsky/FiraCode.
+
+The version number {version} distinguishes it from the official releases. Please check the [official repository](https://github.com/tonsky/FiraCode) for an official release.
+
+**Integrated Code 火:**
+Check out [Integrated Code 火](https://github.com/hunterhogan/Integrated_code_fire_font), a programming font based on Fira Code and Source Han Mono.
+"""
+
+  payload = {
+    "tag_name": version,
+    "name": version,
+    "body": body
+  }
+  data = json.dumps(payload)
   headers = github_headers()
-  
+
   try:
     req = urllib.request.Request(f'https://api.github.com/repos/{repo}/releases', data=data.encode('utf-8'), headers=headers)
     resp = urllib.request.urlopen(req).read()
